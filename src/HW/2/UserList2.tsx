@@ -11,7 +11,7 @@ export const UserList2 = ({ filterUsers, users }: UserList2PropsType) => {
     <div id={"hw02-users"}>
       <h2>User List:</h2>
 
-      <button id={"hw02-filter-button"} onClick={() => filterUsers}>
+      <button id={"hw02-filter-button"} onClick={() => filterUsers()}>
         SHOW ME FRIENDS FROM LA
       </button>
 
